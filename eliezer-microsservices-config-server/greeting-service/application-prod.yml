@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: greeting-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+greeting-service:
+  greeting: "Pronto"
+  default-value: "Deus me tornou um DEV, ALELUIA!"
